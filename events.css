@@ -1,0 +1,28 @@
+#articleSection:first-child {
+    font-weight: bold;
+}
+
+#articleSection:last-of-type {
+    font-weight: bold;
+    font-style: italic;
+}
+
+#addColor {
+display: block;
+margin: 25px;
+}
+
+#makeLarge {
+display: block;
+margin: 25px;
+}
+
+#addBorder {
+display: block;
+margin: 25px;
+}
+
+#addRounding {
+display: block;
+margin: 25px;
+}

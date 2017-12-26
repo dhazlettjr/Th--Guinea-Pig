@@ -1,5 +1,5 @@
 let pageHeader = document.getElementById("pageHeader");
-let pageTitle = document.getElementById("pageTitle");
+let pageTitle = document.getElementsByTagName("h1")[0];
 let keypressInput = document.getElementById("keypressInput");
 let outputTarget = document.getElementById("outputTarget");
 let guineaPig = document.getElementById("guineaPig");
@@ -22,7 +22,7 @@ articleSection.addEventListener("click", function(){
 
 });
 
+pageHeader.addEventListener("mouseover", function(){
+    outputTarget.innerHTML = "You moved your mouse over the header";
+});
 
-// articleSection.addEventListener("click", function(){
-//     document.getElementsById("outputTarget").innerHTML = "you clicked on the article";
-// });

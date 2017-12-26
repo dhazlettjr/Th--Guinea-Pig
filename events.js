@@ -41,4 +41,12 @@ addColor.addEventListener("click", function(){
 makeLarge.addEventListener("click", function(){
     guineaPig.style.fontSize = "50pt";
 });
+
+addBorder.addEventListener("click", function(){
+    guineaPig.style.border = " thick solid #0000FF";
+});
+
+addRounding.addEventListener("click", function(){
+    guineaPig.style.borderRadius = "30px";
+});
  

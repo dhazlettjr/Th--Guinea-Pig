@@ -34,3 +34,11 @@ pageHeader.addEventListener("mouseleave", function(){
     outputTarget.innerHTML = "You left me";
 });
 
+addColor.addEventListener("click", function(){
+    guineaPig.style.color = ("blue");
+});
+
+makeLarge.addEventListener("click", function(){
+    guineaPig.style.fontSize = "50pt";
+});
+ 
